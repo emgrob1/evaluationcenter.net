@@ -19,7 +19,7 @@ class HeaderController extends \Phalcon\Mvc\Controller
 	
 	<?php
 	
-	define("ROOT_PATH", "http://localhost/allwines/");
+	define("ROOT_PATH", "http://evangrob.com/allwines/");
 define("IMAGES_DIR", ROOT_PATH . "images");
 	}
 	public function getHeaderSub()
@@ -30,7 +30,7 @@ define("IMAGES_DIR", ROOT_PATH . "images");
 		<title>all-wines.com</title>
 	</head>
 	<?php
-	define("ROOT_PATH", "http://localhost/allwines/");
+	define("ROOT_PATH", "http://evangrob.com/allwines/");
 define("IMAGES_DIR", ROOT_PATH . "images");
 	}
 }

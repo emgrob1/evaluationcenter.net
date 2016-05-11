@@ -13,49 +13,29 @@
 	<?php
 	$getHeader = new HeaderController();
 	$getHeader->getHeaderSub();
+	
 	?>
 	<body >
 <div id="wrapper">
 <div id="header">
+
 <div id="headerbanner"><a href="http://evangrob.com/allwines/"><img src="http://evangrob.com/allwines/images/banner1.png" width="1200" height="125" /></a></div><?php
 $menu = new MenuController();
 $menu->getMenu();
 ?>
 <div id="main">
-<div id="content">	
+<div id="content">
+	
+	
 <p>
-	Membership Page
+	Tastings
 </p>
+<p>...Under Construction</p>
+<?php 
 
-<div style="text-align:left;margin-left:8px;">
-<h2>Sign using this form</h2>
+echo '<img src="'.IMAGES_DIR.'/construction.jpe">';
 
-<?php echo $this->tag->form('signup/register') ?>
-
-	<p>
-		<label for="name">First Name</label>
-		<?php echo $this->tag->textField("firstname") ?>
-	</p>
-	<p>
-		<label for="name">Last Name</label>
-		<?php echo $this->tag->textField("lastname") ?>
-	</p>
-
-	<p>
-		<label for="name">E-Mail</label>
-		<?php echo $this->tag->textField("email") ?>
-	</p>
-	<p>
-		<label for="name">Comment</label>
-		<?php echo $this->tag->textField("comment") ?>
-	</p>
-
-	<p>
-		<?php echo $this->tag->submitButton("Register") ?>
-	</p>
-
-</form>
-</div>
+?>
 </div>
 </div>
 <div id="sidebar">

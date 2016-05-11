@@ -5,7 +5,7 @@ class RegionsController extends \Phalcon\Mvc\Controller
 
     public function indexAction()
     {
-		$this->view->regions = regions::find();
+		$this->view->regions = Regions::find();
     }
 
 }

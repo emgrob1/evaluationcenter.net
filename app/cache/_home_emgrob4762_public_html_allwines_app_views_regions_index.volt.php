@@ -12,40 +12,33 @@
 <html>
 	<?php
 	$getHeader = new HeaderController();
-	$getHeader->getHeader();
+	$getHeader->getHeaderSub();
 	
 	?>
 	<body >
 <div id="wrapper">
 <div id="header">
-	<div id="label">all-wines.com</div>
-<div id="headerbanner"><img src="http://localhost/allwines/images/banner1.png" width="900" height="118" /></div>
+<div id="headerbanner"><a href="http://evangrob.com/allwines/"><img src="http://evangrob.com/allwines/images/banner1.png" width="1200" height="125" /></a></div>	
 <?php
 $menu = new MenuController();
 $menu->getMenu();
 ?>
-
 <div id="main">
 <div id="content">
 	
 	
 <p>
-	List of Members
+	
+<img src="http://evangrob.com/allwines/images/Wine-growing-regions-of-the-world_rev.png" width="550" height="250">
+
 </p>
-<div style="text-align:left;">
-<?php foreach ($membership as $memberships) { ?>
-
-First Name: <?= $memberships->firstname ?><br> Last Name: <?= $memberships->lastname ?><br> Email: <?= $memberships->email ?><br> Comment: <?= $memberships->comment ?><br><br>
-
-
-<?php } ?>
-</div>
-
 </div>
 </div>
 <div id="sidebar">
 	
+
 <h2 >Additional Information</h2>
+ 
 </div>
 <?php
 	$getFooter = new FooterController();

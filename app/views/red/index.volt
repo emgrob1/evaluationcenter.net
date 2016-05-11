@@ -18,8 +18,7 @@
 	<body >
 <div id="wrapper">
 <div id="header">
-<div id="headerbanner"><a href="http://localhost/allwines/"><img src="http://localhost/allwines/images/banner1.png" width="1200" height="125" /></a></div>	
-<?php
+<div id="headerbanner"><a href="http://evangrob.com/allwines/"><img src="http://evangrob.com/allwines/images/banner1.png" width="1200" height="125" /></a></div><?php
 $menu = new MenuController();
 $menu->getMenu();
 ?>
@@ -35,7 +34,7 @@ $menu->getMenu();
 
 {% for grape in grapes %}
 {% if grape.Color == "Red" %}
-<div class="spacer" style="height:80px;">
+<div class="spacer" style="height:120px;">
 <div style="font-weight:bold;">{{grape.Name}} -  {{grape.Color}}</div> 
  <div id="grapeImage"  style="float:left;margin-left:25px;"><img src="http://localhost/allwines/images/{{grape.Image}}" width="50" height ="50" style="margin-right:8px;"></div>
 

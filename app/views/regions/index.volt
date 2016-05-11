@@ -18,7 +18,7 @@
 	<body >
 <div id="wrapper">
 <div id="header">
-<div id="headerbanner"><a href="http://localhost/allwines/"><img src="http://localhost/allwines/images/banner1.png" width="1200" height="125" /></a></div>	
+<div id="headerbanner"><a href="http://evangrob.com/allwines/"><img src="http://evangrob.com/allwines/images/banner1.png" width="1200" height="125" /></a></div>	
 <?php
 $menu = new MenuController();
 $menu->getMenu();
@@ -29,7 +29,7 @@ $menu->getMenu();
 	
 <p>
 	
-<img src="http://localhost/allwines/images/Wine-growing-regions-of-the-world_rev.png" width="550" height="250">
+<img src="http://evangrob.com/allwines/images/Wine-growing-regions-of-the-world_rev.png" width="550" height="250">
 
 </p>
 </div>
