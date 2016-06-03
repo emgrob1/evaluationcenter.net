@@ -1,0 +1,178 @@
+/*
+ Theme Name:   Twenty Thirteen Child
+  Description:  My first child theme, based on Twenty Thirteen
+ Author:       Evan Grob
+ Author URI:   http://evangrob.com
+ Template:     twentythirteen
+ Version:      1.0.0
+ Text Domain:  twenty-thirteen-child
+*/
+
+
+@import url("../twentythirteen/style.css");
+.wrapper{
+	background-color:white;
+}
+
+#header_contents{
+	margin-right:auto;
+	margin-left:auto;
+}
+
+.site-header {
+    position: relative;
+    background-color: #325884;
+  	height:90px;   
+    margin-right: auto;
+    margin-left: auto;
+    width:1200px;
+}
+
+
+.site-header .home-link {
+	
+	display: block;
+	margin: 0 auto;
+	max-width: 1080px;
+	min-height: 230px;
+	padding: 0 20px;
+	text-decoration: none;
+	width: 100%;
+}
+
+.site-header .site-title:hover {
+	text-decoration: underline;
+}
+
+.site-title {
+	font-size: 30px;
+	font-weight: normal;
+	font-family:Arial;
+	line-height: 1;
+	margin: 0;
+	padding: 58px 0 10px;
+	color:white;
+		margin-top:-115px;
+	margin-left:95px;
+}
+
+.site-description {
+	font-size: 18px;
+	font-weight: normal;
+	font-family:Arial;
+	margin: 0;
+	margin-left:95px;
+	
+}
+
+#header_image1{
+	margin-left:50px;
+}
+#header_image2{
+	margin-left:700px;
+}
+
+#site_title{
+
+}
+
+#site_description{
+	
+}
+
+body{
+	
+	background-color:#436C99;
+}
+.site-main .widget-area{
+	position:absolute;
+	float:left;
+	width:100%;
+	margin-left:-35px;
+	
+}
+.site-content {
+		display: block;
+		float: left;
+		margin-left: 20%;
+		width: 70.5882%;
+		color: #0000c6;
+		
+		padding:5px;
+		background-color:white;
+	}
+.entry-header, .entry-content, .entry-summary, .entry-meta {
+    margin: 0 auto;
+    max-width: 604px;
+    width: 100%;
+    float: left;
+
+}
+.entry-content {
+    font-weight: normal;
+    margin: 0 0 5px;
+    background-color:white;
+    margin-top:-20px;
+    width:150%;
+}
+ul.menu {
+	
+	list-style-type:none;
+	width:250px;
+} 
+ul.menu li {
+    list-style-type: none;  
+    background-color:#638CBB;
+    border-width:2px;	
+    border-style:groove;
+   	padding:5px;
+}
+ul.menu li:hover{     
+    background-color:#E3FAE7;
+}
+ul.menu li:hover a { 
+    color:#436C99;
+    text-decoration:none;
+    font-weight:bold;
+ 
+
+}
+
+ul.menu li a{
+    list-style-type: none;
+    color:white;  
+}
+
+ul.menu ul.sub-menu li{
+    list-style-type: none;  
+    text-align:left;
+    margin-left:-30px;
+ display:none;
+}
+
+ul.menu li:hover ul.sub-menu li {
+	list-style-type: none;  
+    text-align:left;
+    margin-left:-30px;
+     display:block;
+     border:none;
+     /* background-color:#E3FAE7;*/
+}
+ul.menu li ul.sub-menu li:hover a {
+	list-style-type: none;  
+    text-align:left;
+  
+     display:block;
+     border:none;
+      background-color:#638CBB;
+    color:white;
+    padding:3px;
+    border-radius:2px;
+}
+.site-footer {
+	
+	color: #686758;
+	font-size: 14px;
+	text-align: center;
+}
+

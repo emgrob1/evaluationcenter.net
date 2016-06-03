@@ -1,0 +1,17 @@
+/*
+ Theme Name:   Oxygen-WPcom Child
+  Description: Oxygen Child theme, based on Oxygen
+ Author:       Evan Grob
+ Author URI:   http://evangrob.com
+ Template:     oxygen-wpcom
+ Version:      1.0.0
+ Text Domain:    oxygen-wpcom-child
+*/
+
+
+@import url("../oxygen-wpcom/style.css");
+
+ul li, ol li {
+    line-height: 2.1em;
+    list-style-type: none;
+}

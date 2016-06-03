@@ -1,0 +1,68 @@
+/*
+ Theme Name:   Twenty Fifteen Child
+  Description:  My first child theme, based on Twenty Fifteen
+ Author:       Evan Grob
+ Author URI:   http://evangrob.com
+ Template:     twentyfifteen
+ Version:      1.0.0
+ Text Domain:  twenty-fifteen-child
+*/
+
+@import url("../twentyfifteen/style.css");
+
+
+/**/
+
+
+/**/
+#banner{
+	width:100%;
+	height: 100px;
+	z-index: 9999;
+	text-align:center;
+	background-color:#325884;
+	color:white;
+	position:absolute;
+	position:fixed;
+}
+.site-title{
+	color:white;
+}
+.sidebar {
+    float: left;
+    margin-right: -100%;
+    max-width: 413px;
+    position: relative;
+    width: 16.5%;
+    margin-top: 5%;
+   
+}
+.main-navigation ul {
+	margin-left:-20%;
+	width:200px;
+	}
+.main-navigation ul li {
+	border:groove 2px gray;
+	padding:3px;
+	border-radius:5px;
+	 background-color:#638CBB;
+	 width:179px;
+	}
+	.main-navigation ul li a{
+color:white;
+	}
+	.main-navigation ul li:hover a{
+background-color:#E3FAE7;
+color:#325884;
+
+	}	
+	
+	
+.site-content {
+    display: block;
+    float: left;
+    margin-left: 29.4118%;
+    width: 70.5882%;
+    background-color: #325884;
+}
+
